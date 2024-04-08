@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using mission11.Models;
+using mission11.Models.ViewModels;
 using System.Diagnostics;
 
 namespace mission11.Controllers
@@ -18,12 +19,23 @@ namespace mission11.Controllers
         {
             int pageSize = 5;
 
-            var bookData = _repo.Books
+            var blah = new BooksListViewModel
+            {
+                Books = _repo.Books
                 .OrderBy(x => x.Title)
-                .Skip((pageNum -1) * pageSize)
-                .Take(pageSize);
+                .Skip((pageNum - 1) * pageSize)
+                .Take(pageSize),
 
-            return View(bookData);
+                PaginationInfo = new PaginationInfo
+                {
+                    CurrentPage = pageNum,
+                    ItemsPerPage = pageSize,
+                    TotalItems = _repo.Books.Count()
+
+                }
+            };
+        
+            return View(blah);
         }
     }
 }

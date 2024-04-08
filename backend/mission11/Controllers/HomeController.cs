@@ -14,9 +14,14 @@ namespace mission11.Controllers
             _repo = temp;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int pageNum)
         {
-            var bookData = _repo.Books;
+            int pageSize = 5;
+
+            var bookData = _repo.Books
+                .OrderBy(x => x.Title)
+                .Skip((pageNum -1) * pageSize)
+                .Take(pageSize);
 
             return View(bookData);
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Mission11\\missioneleven\\backend\\mission11\\mission11.csproj": {}
+    "C:\\Users\\Alexander\\Desktop\\Program\\Repos\\missioneleven\\backend\\mission11\\mission11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Mission11\\missioneleven\\backend\\mission11\\mission11.csproj": {
+    "C:\\Users\\Alexander\\Desktop\\Program\\Repos\\missioneleven\\backend\\mission11\\mission11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Mission11\\missioneleven\\backend\\mission11\\mission11.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Program\\Repos\\missioneleven\\backend\\mission11\\mission11.csproj",
         "projectName": "mission11",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Mission11\\missioneleven\\backend\\mission11\\mission11.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Mission11\\missioneleven\\backend\\mission11\\obj\\",
+        "projectPath": "C:\\Users\\Alexander\\Desktop\\Program\\Repos\\missioneleven\\backend\\mission11\\mission11.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\Desktop\\Program\\Repos\\missioneleven\\backend\\mission11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
